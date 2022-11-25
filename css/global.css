@@ -1,0 +1,45 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+.content h1{
+    margin: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 4, 4);
+    text-shadow: #e7e7e7 2px 2px;
+    text-align: center;
+   
+}
+.pagination{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:1rem;
+}
+.pagination button{
+    padding: .25rem .5rem;
+    margin-bottom: 0;
+    color:#f0f8ff;
+    background-color: #ff0000;
+    border: #000 solid 2px;
+    border-radius: 1rem;
+    font-size: .925rem;
+    margin-left: 0.5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+}
+
+.content-details{
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+    
+  
+}
+.pokemonDetails{
+    display: flex;
+    flex-direction: column;
+    background-color: #a2040465;
+    margin: 1rem 0.5rem;
+    border-radius: 1rem;
+    width: 55%;
+    border:#0c0c0c double 6px;
+    
+}
+
+.pokemonDetails .pokemonListDetails{
+    list-style: none;
+    text-align: center;
+}
+.pokemonDetails .pokemonListDetails .nomePokemon{
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: capitalize;
+    color:#fff;
+    text-shadow: #054c33 1px 2px;
+    
+}
+
+.pokemonDetails .pokemonListDetails .number{
+    font-size: 0.8rem;
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(200, 10, 10);
+    text-shadow: #0f0f0f 0.5px 0.2px;
+    
+}
+.pokemonDetails img{
+     width: 40%;
+     margin-top: 2rem;
+     
+   
+}
+
+.pokemonDetails .typesaAndImg{
+    text-align: center;
+}
+.pokemonDetails .typesaAndImg .types{
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+   
+}
+.pokemonDetails .typesaAndImg .types{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+.pokemonDetails .typesaAndImg .types .typePokemon{
+    color: #fff;
+    padding: .3rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin: .25rem;
+    opacity: .8;
+    border:#ffffff58 solid 1px;
+    background-color: #ffffff25;
+    text-shadow: #fff 3 2px 1px;  
+    filter:brightness(1.5);
+}
+.characteristicsPokemon{
+    height: 100%;
+    background-color: #edededda;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+    
+    
+  
+}
+
+
+
+.characteristicsPokemon .description .descriptionList{
+    list-style: none;
+    margin: .5rem;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+    
+}
+
+.characteristicsPokemon .description .descriptionList li{
+   padding: .3rem;
+   border: #717070 solid 1px;
+   margin-bottom: .3rem;
+   border-radius: 0.5rem;
+   background-color: #a2040465;
+   color: #fff;
+   font-size: .895rem;
+}
+
+@media screen and (max-width:992px){
+    
+    .content-details{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media screen and (max-width:576px){
+    
+    .content-details{
+        grid-template-columns: 1fr;
+    }
+    .characteristicsPokemon .description .descriptionList li {
+        padding: 0.3rem;
+        
+        margin-bottom: 0.2rem;
+        
+        
+        
+    }
+     
+  
+ 
+    
+}
