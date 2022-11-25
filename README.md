@@ -1,4 +1,4 @@
-<h1 align="center"> Pokédex</h1>
+<h1 align="center"> Pokedex</h1>
 
 
 ## :rocket: Sobre o projeto
@@ -10,7 +10,7 @@ Na primeira tela, podemos ver os pokemons, com as seguintes informações:
  - Imagem. 
  
  Para carregar mais pokemons, bastaclicar no botão **"Load more"**. A quantidade de pokemons foi limitada em 200.
-
+ 
 É possivel chegar a segunda tela de duas formas: clicando em algum pokemon, ou no botão **"Details"**. 
 Nessa tela, podemos ver os cards dos pokemons com mais detalhes, como: 
  - Habilidade
@@ -28,4 +28,11 @@ Para a obter as informações sobre os Pokémons foi utilizada a API do [PokéAP
 - `Javascript`
 - `HTML`
 - `CSS`
+
+## :tv: Tela 1
+ ![1](https://github.com/CarolFOliveira/Pokedex/blob/master/Tela%201.png)
+ 
+ ## :tv: Tela 2
+ ![2](https://github.com/CarolFOliveira/Pokedex/blob/master/Tela%202.png)
+ 
 
