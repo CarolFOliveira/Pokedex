@@ -157,7 +157,7 @@
 
 @media screen and (min-width:992px){
     body{
-        background: url(/assets/bgPokemon.jpg);
+        background: url(bgPokemon.jpg);
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
